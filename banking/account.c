@@ -2,11 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 //Account Operation functions
-void createAccount(struct Account *account, 
-                    int accountNumber,
-                    char *accountHolderName, 
-                    float accountBalance, 
-                    char *accountType){
+void createAccount(struct Account *account,   int accountNumber,   char *accountHolderName, float accountBalance, char *accountType){
     account->accountNumber=accountNumber;
     strcpy(account->accountHolderName, accountHolderName);
     account->accountBalance=accountBalance;
