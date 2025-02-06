@@ -12,8 +12,4 @@ int main()
    printf("%f\n",hr);
    printf("%f\n",gs);
    return 0;
-
-
-
-
 }

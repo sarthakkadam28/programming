@@ -19,8 +19,5 @@ int main(){
    Person person1(20, "Sarthak");
    Person person1(20, "Sanika");
    Person person1(20, "Sejal ");
-
-   
-
     return 0;
 }
