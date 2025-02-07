@@ -1,5 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    printf("hello");
-    return 0;
+    int stroke ;
+    stroke  = 2 ;
+    int *ptrstroke=&stroke ;
+    *ptrstroke=4; 
+    printf(" the value of the stroke is:%d\n",*ptrstroke );
+    printf(" the value of the stroke is:%d\n",ptrstroke );
 }
