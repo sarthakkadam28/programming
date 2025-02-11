@@ -1,6 +1,8 @@
 #include "darray.h"
 #include<stdio.h>
 #include<stdlib.h>
+
+
 //Implementation of Reusable functions  CRUD Opertions
 
 extern int *globalPtr;  //it is a global pointer variable of type integer
