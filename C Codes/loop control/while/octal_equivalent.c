@@ -12,10 +12,10 @@ int main(){
     printf("enter the number");
     scanf("%d",&num);
     while (num>1){
-        remainder=num%8;
-        octal=octal+remainder*place;
-        place=place*10;
-        num=num/8;
+        remainder=num%8; // Get remainder
+        octal=octal+remainder*place;// Get remainder
+        place=place*10;// Move to the next place value
+        num=num/8;// Update decimal number
     }
 printf("octal equvilent=%d\n",octal);
 return 0;
