@@ -8,8 +8,8 @@ struct flight
     char airline[100];        // Airline name (e.g., "Delta Airlines")
     char origin[20];    // Departure airport
     char destination[20]; // Arrival airport
-    char departureTime[20];   // Departure time (format: YYYY-MM-DD HH:MM)
-    char arrivalTime[20];     // Arrival time (format: YYYY-MM-DD HH:MM)
+    int  departureTime;   // Departure time (format: YYYY-MM-DD HH:MM)
+    int arrivalTime;     // Arrival time (format: YYYY-MM-DD HH:MM)
     char flightStatus[20];    // Flight status (e.g., "On Time", "Delayed")
     int passengerCount;       // Number of passengers
 };
@@ -108,6 +108,7 @@ int main(){
                 displayflight(flight);
 
             }
+            break;
             case 2:
             {
                 struct flight flight=readfromflight(pfilename);
@@ -117,7 +118,8 @@ int main(){
             break;
             case 3:{
                 printf("thank you for using flight menu system");
-            }
+            } 
+            break;
         
         default:
         printf("invalid statement plz try again");

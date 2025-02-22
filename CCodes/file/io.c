@@ -39,9 +39,6 @@ void writetofile(const char *pfilename) {
         fclose(pfile);
 
         printf("Do you want to enter another student (y/n)? ");
-        printf("do you want to write a student data(y/n)?");
-        printf("do you want to read a student data(y/n)" );
-        printf("exit");
         getchar(); // Clear input buffer
         scanf(" %c", &choice);
 
@@ -71,34 +68,5 @@ int main() {
     const char *pfilename = "student.info";
     writetofile(pfilename);
     readtofile(pfilename);
-    int choice;
-    int write data  ;
-    int read data ;
-    printf("if you want to write a student data press 1 ");
-    printf(" doyou want to  read a student data press 2");
-    printf("exit press 3");
-    do { 
-        printf("enter your choice ");
-        scanf("%d",&choice );
-        printf("1.write  student data\n");
-        printf("2.read student data\n");
-        printf("3.exit\n");
-        switch (choice)
-        {
-        case 1:
-          write (pfilename);
-            break;
-        case 2:
-            read data (pfilename);
-            break;
-        case 3: 
-            printf ("exit");
-            break;   
-        
-        default:
-            printf("invalid choice plz try again\n");
-            break;
-        }
-    } while (choice !=3);
     return 0;
 }
