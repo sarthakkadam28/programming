@@ -59,8 +59,8 @@ void display(struct Queue* queue){
     }
     int i=queue->front;
     while(i!=queue->rear){
-        printf("%d ", queue->flights[i]);
+        printf(" %d ", queue->flights[i].flight_id);
         i=(i+1)%queue->capacity;
     }
-    printf("%d\n", queue->flights[queue->rear]);
+    printf(" %d\n", queue->flights[queue->rear].flight_id);
   }

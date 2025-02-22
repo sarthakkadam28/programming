@@ -33,7 +33,7 @@ int main() {
     printf("Signalled fop landing: %d %s \n", theFlightToLand.flight_id, theFlightToLand.destination);
     theFlightToLand=dequeue(queue);
     printf("Signalled fop landing: %d %s \n", theFlightToLand.flight_id, theFlightToLand.destination);
-    ("Signalled fop landing: %d %s \n", theFlightToLand.flight_id, theFlightToLand.destination);
+    printf("Signalled fop landing: %d %s \n", theFlightToLand.flight_id, theFlightToLand.destination);
     
     display(queue);
     return 0;

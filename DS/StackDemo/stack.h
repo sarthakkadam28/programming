@@ -5,6 +5,6 @@ struct Stack{
 };
 
 //Stack Operation
-void push(struct Stack *stack, int daya);
+void push(struct Stack *stack, int data);
 int pop(struct Stack *stack);
 void display(struct Stack *stack);
