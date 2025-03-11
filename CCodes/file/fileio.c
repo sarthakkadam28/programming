@@ -14,7 +14,7 @@ struct Student {
 
 void showMenu()
 {
-    printf("\nOptions for Students Managment:\n");
+    printf("\nOptions for Students Managment:\n");   
     printf("1.Create new User /t ");
     printf("2.Display existing Users/t");
     printf("3.Exit\n");
